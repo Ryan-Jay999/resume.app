@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "D:/study/jian_tu.p12",
+          "storePassword": "000000187C5CAC05BBBD730E7CF474068F3405B461ABC13C895B82DC845C71F06EA576E385A5F92F",
+          "keyAlias": "jian_tu_key",
+          "keyPassword": "00000018E4C6446240E4FFB83062C967E3477538A132761F44231F68D503B4921381471E2C488222",
+          "signAlg": "SHA256withECDSA",
+          "profile": "D:/study/jian_tu_profileRelease.p7b",
+          "certpath": "D:/study/jian_tu_release.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

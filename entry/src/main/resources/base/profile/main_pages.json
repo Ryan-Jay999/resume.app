@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/TemplatePick",
+    "pages/ResumeEdit",
+    "pages/Preview",
+    "pages/Diagnosis",
+    "pages/Plan",
+    "pages/Settings"
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "cs_intern",
+    "name": "计算机实习",
+    "category": "互联网 / 研发",
+    "scene": "internet_intern",
+    "accent": "#2563EB",
+    "layout": "classic",
+    "desc": "面向互联网与软件研发实习，突出项目与技术栈",
+    "order": ["education", "internship", "project", "award", "studentWork", "skills", "certificates", "summary"]
+  },
+  {
+    "id": "finance_intern",
+    "name": "金融财会实习",
+    "category": "商科 / 金融",
+    "scene": "finance_intern",
+    "accent": "#B45309",
+    "layout": "classic",
+    "desc": "面向银行、券商、事务所，突出证书与数据能力",
+    "order": ["education", "internship", "certificates", "skills", "award", "practice", "studentWork", "summary"]
+  },
+  {
+    "id": "marketing_intern",
+    "name": "市场运营实习",
+    "category": "商科 / 金融",
+    "scene": "marketing_intern",
+    "accent": "#DB2777",
+    "layout": "classic",
+    "desc": "面向市场、新媒体与电商运营，突出活动与数据结果",
+    "order": ["education", "internship", "project", "skills", "practice", "award", "studentWork", "summary"]
+  },
+  {
+    "id": "education_intern",
+    "name": "教育师范",
+    "category": "教育 / 师范",
+    "scene": "education_intern",
+    "accent": "#059669",
+    "layout": "classic",
+    "desc": "面向教师、教培与教研岗位，突出教学实践与资格证",
+    "order": ["education", "practice", "certificates", "internship", "project", "skills", "award", "summary"]
+  },
+  {
+    "id": "law_intern",
+    "name": "法学律所",
+    "category": "法学 / 公职",
+    "scene": "law_intern",
+    "accent": "#1E3A8A",
+    "layout": "classic",
+    "desc": "面向律所、法务与法院实习，突出法考与实务经历",
+    "order": ["education", "certificates", "internship", "project", "practice", "skills", "award", "summary"]
+  },
+  {
+    "id": "civil_servant",
+    "name": "公务员选调",
+    "category": "法学 / 公职",
+    "scene": "civil_servant",
+    "accent": "#B91C1C",
+    "layout": "classic",
+    "desc": "面向公考、选调与事业单位，突出学生工作与实践",
+    "order": ["education", "studentWork", "practice", "award", "certificates", "internship", "skills", "summary"]
+  },
+  {
+    "id": "design_intern",
+    "name": "设计艺术",
+    "category": "设计 / 传媒",
+    "scene": "design_intern",
+    "accent": "#C026D3",
+    "layout": "classic",
+    "desc": "面向视觉、UI 与影视设计，突出作品集与工具",
+    "order": ["education", "project", "skills", "internship", "award", "practice", "summary"]
+  },
+  {
+    "id": "grad_school",
+    "name": "保研推优",
+    "category": "升学 / 综合",
+    "scene": "postgraduate",
+    "accent": "#7C3AED",
+    "layout": "classic",
+    "desc": "面向保研、推优与奖学金申请，突出成绩与科研",
+    "order": ["education", "award", "project", "studentWork", "practice", "skills", "summary"]
+  },
+  {
+    "id": "state_owned",
+    "name": "国企行政",
+    "category": "升学 / 综合",
+    "scene": "state_owned",
+    "accent": "#0F766E",
+    "layout": "classic",
+    "desc": "面向国企、事业单位与行政岗位，突出组织与实践",
+    "order": ["education", "studentWork", "internship", "practice", "award", "skills", "certificates", "summary"]
+  },
+  {
+    "id": "competition",
+    "name": "竞赛学工",
+    "category": "升学 / 综合",
+    "scene": "competition",
+    "accent": "#C2410C",
+    "layout": "classic",
+    "desc": "面向竞赛申报与学生干部选拔，突出成果与组织力",
+    "order": ["education", "project", "award", "studentWork", "practice", "skills", "summary"]
+  }
+]
